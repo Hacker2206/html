@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Student - College Management</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>College Management</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="collegemanagement.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="add_student.html">Add Student</a></li>
+        <li><a href="list_students.html">List Students</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <h2>Add Student</h2>
+      <form id="addStudentForm">
+        <div class="form-group">
+          <label for="studentName">Student Name:</label>
+          <input type="text" id="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="studentDepartment">Department:</label>
+          <input type="text" id="department" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="studentMarks">Internal Marks:</label>
+          <input type="number" id="marks" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Student</button>
+      </form>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
